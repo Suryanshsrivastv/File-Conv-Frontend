@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TFiles.com</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1 class="title">TFiles.com</h1>
+  </div>
+  <div class="container">
+    <div class="folder">
+      <div class="front-side">
+        <div class="tip"></div>
+        <div class="cover"></div>
+      </div>
+      <div class="back-side cover"></div>
+    </div>
+    <label class="custom-file-upload">
+      <input class="title" id="file-input" type="file" />
+      Choose a file
+    </label>
+    <div id="file-name">No file selected</div>
+  </div>
+
+  <div class="dropdown-container">
+    <label for="to-file-type">To:</label>
+    <select id="to-file-type" class="file-type-dropdown">
+        <option value="pdf">PDF</option>
+        <option value="ppt">PPT</option>
+        <option value="docx">DOCX</option>
+        <option value="text">Text</option>
+    </select>
+  </div>
+
+  <pre>
+    
+    
+    
+    <button id="convert-button" style="display:none;">Convert</button></pre>
+
+  <script src="index.js"></script>
+</body>
+</html>

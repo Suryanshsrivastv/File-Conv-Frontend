@@ -1,0 +1,441 @@
+body {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+  
+  body::before {
+    content: "";
+    position: absolute;
+    inset: -145%;
+    rotate: -45deg;
+    background: #000;
+    background-image: radial-gradient(4px 100px at 0px 235px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 235px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 117.5px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 252px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 252px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 126px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 150px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 150px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 75px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 253px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 253px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 126.5px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 204px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 204px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 102px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 134px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 134px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 67px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 179px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 179px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 89.5px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 299px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 299px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 149.5px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 215px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 215px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 107.5px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 281px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 281px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 140.5px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 158px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 158px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 79px, #0f0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 210px, #0f0, #0000),
+      radial-gradient(4px 100px at 300px 210px, #0f0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 105px, #0f0 100%, #0000 150%);
+    background-size:
+      300px 235px,
+      300px 235px,
+      300px 235px,
+      300px 252px,
+      300px 252px,
+      300px 252px,
+      300px 150px,
+      300px 150px,
+      300px 150px,
+      300px 253px,
+      300px 253px,
+      300px 253px,
+      300px 204px,
+      300px 204px,
+      300px 204px,
+      300px 134px,
+      300px 134px,
+      300px 134px,
+      300px 179px,
+      300px 179px,
+      300px 179px,
+      300px 299px,
+      300px 299px,
+      300px 299px,
+      300px 215px,
+      300px 215px,
+      300px 215px,
+      300px 281px,
+      300px 281px,
+      300px 281px,
+      300px 158px,
+      300px 158px,
+      300px 158px,
+      300px 210px,
+      300px 210px,
+      300px 210px;
+    animation: hi 150s linear infinite;
+  }
+  
+  @keyframes hi {
+    0% {
+      background-position:
+        0px 220px,
+        3px 220px,
+        151.5px 337.5px,
+        25px 24px,
+        28px 24px,
+        176.5px 150px,
+        50px 16px,
+        53px 16px,
+        201.5px 91px,
+        75px 224px,
+        78px 224px,
+        226.5px 350.5px,
+        100px 19px,
+        103px 19px,
+        251.5px 121px,
+        125px 120px,
+        128px 120px,
+        276.5px 187px,
+        150px 31px,
+        153px 31px,
+        301.5px 120.5px,
+        175px 235px,
+        178px 235px,
+        326.5px 384.5px,
+        200px 121px,
+        203px 121px,
+        351.5px 228.5px,
+        225px 224px,
+        228px 224px,
+        376.5px 364.5px,
+        250px 26px,
+        253px 26px,
+        401.5px 105px,
+        275px 75px,
+        278px 75px,
+        426.5px 180px;
+    }
+    to {
+      background-position:
+        0px 6800px,
+        3px 6800px,
+        151.5px 6917.5px,
+        25px 13632px,
+        28px 13632px,
+        176.5px 13758px,
+        50px 5416px,
+        53px 5416px,
+        201.5px 5491px,
+        75px 17175px,
+        78px 17175px,
+        226.5px 17301.5px,
+        100px 5119px,
+        103px 5119px,
+        251.5px 5221px,
+        125px 8428px,
+        128px 8428px,
+        276.5px 8495px,
+        150px 9876px,
+        153px 9876px,
+        301.5px 9965.5px,
+        175px 13391px,
+        178px 13391px,
+        326.5px 13540.5px,
+        200px 14741px,
+        203px 14741px,
+        351.5px 14848.5px,
+        225px 18770px,
+        228px 18770px,
+        376.5px 18910.5px,
+        250px 5082px,
+        253px 5082px,
+        401.5px 5161px,
+        275px 6375px,
+        278px 6375px,
+        426.5px 6480px;
+    }
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.title {
+    color: cornsilk;
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+/* From Uiverse.io by 3bdel3ziz-T */ 
+.container {
+    --transition: 350ms;
+    --folder-W: 120px;
+    --folder-H: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    height: calc(var(--folder-H) * 1.9);
+    position: relative;
+}
+
+.folder {
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 60px);
+    animation: float 2.5s infinite ease-in-out;
+    transition: transform var(--transition) ease;
+}
+
+.folder:hover {
+    transform: scale(1.05);
+}
+
+.folder .front-side,
+.folder .back-side {
+    position: absolute;
+    transition: transform var(--transition);
+    transform-origin: bottom center;
+}
+
+.folder .back-side::before,
+.folder .back-side::after {
+    content: "";
+    display: block;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+    width: var(--folder-W);
+    height: var(--folder-H);
+    position: absolute;
+    transform-origin: bottom center;
+    border-radius: 15px;
+    transition: transform 350ms;
+    z-index: 0;
+}
+
+.container:hover .back-side::before {
+    transform: rotateX(-5deg) skewX(5deg);
+}
+.container:hover .back-side::after {
+    transform: rotateX(-15deg) skewX(12deg);
+}
+
+.folder .front-side {
+    z-index: 1;
+}
+
+.container:hover .front-side {
+    transform: rotateX(-40deg) skewX(15deg);
+}
+
+.folder .tip {
+    background: linear-gradient(135deg, #ff9a56, #ff6f56);
+    width: 80px;
+    height: 20px;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -10px;
+    z-index: 2;
+}
+
+.folder .cover {
+    background: linear-gradient(135deg, #ffe563, #ffc663);
+    width: var(--folder-W);
+    height: var(--folder-H);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.custom-file-upload {
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background var(--transition) ease;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 35px;
+    position: relative;
+}
+
+.custom-file-upload:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* File input and dropdown container aligned side by side */
+.file-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;  /* Space between the file input and dropdown */
+}
+
+/* Dropdown container fixed at the bottom */
+.dropdown-container {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10;
+}
+
+/* Dropdown styling */
+.file-type-dropdown {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* File type dropdown focus state */
+.file-type-dropdown:focus {
+    outline: none;
+    border-color: #4caf50; /* Green border on focus */
+}
+
+/* Style options inside the dropdown */
+.file-type-dropdown option {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Ensure dropdown opens upwards */
+.file-type-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    background-color: #333;
+    color: white;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.file-type-dropdown::-ms-expand {
+    display: none;
+}
+
+.file-name-display {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+}
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+    cursor: pointer;
+  }
+  
+  button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+  }
+  
+  button:hover::before {
+    width: 105%;
+  }
+  
+  button:hover {
+    color: #111;
+  }
+  
+  .convert-button {
+    margin-top: 15px;
+    display: none; /* Initially hidden */
+  }
+  
+  /* Additional styles for the file name display */
+  .file-name-display {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+  }
