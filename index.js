@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const fileInput = document.getElementById('file-input');
     const fileNameDisplay = document.getElementById('file-name');
     const toDropdown = document.getElementById('to-file-type');
-    const convertButton = document.getElementById('convert-button'); // Move this inside the event listener
+    const convertButton = document.getElementById('convert-button');
+     const socketElement = document.querySelector('.smodal'); // Move this inside the event listener
 
     let selectedFile = null;
     let fileType = '';
@@ -12,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         switch (fileExtension) {
             case 'pdf':
                 return 'pdf';
-            case 'ppt':
+            case 'pptx':
                 return 'ppt';
             case 'docx':
                 return 'docx';
@@ -51,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     
         // Dynamically build the endpoint URL
-        const endpoint = `https://tfiles-backend-service.onrender.com/conv/${fileType}-to-${selectedToType}`;
+        const endpoint = `https://file-converter-fmu3.onrender.com/conv/${fileType}-to-${selectedToType}`;
         console.log(fileType, selectedToType, endpoint);
     
         // Prepare the data for the API request
